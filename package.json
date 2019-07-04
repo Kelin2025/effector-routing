@@ -1,0 +1,27 @@
+{
+  "name": "effector-routing",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "module": "index.js",
+  "author": {
+    "name": "Anton Kosykh",
+    "email": "kelin2025@yandex.ru"
+  },
+  "description": "Simple effector router",
+  "dependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "effector": "^19.1.0",
+    "effector-react": "^19.1.2",
+    "path-to-regexp": "^3.0.0"
+  },
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "dev": "babel --watch src --out-dir dist"
+  },
+  "devDependencies": {
+    "parcel": "^1.12.3"
+  }
+}
