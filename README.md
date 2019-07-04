@@ -155,7 +155,7 @@ const Post = () => {
 
 ### Writing your own adapter
 
-If you want to write your own adapter
+If you want to write your own adapter  
 Here's an example of adapter which stores last route in LocalStorage (e.g. for Electron)
 
 ```js
