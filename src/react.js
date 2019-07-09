@@ -12,7 +12,7 @@ export const RouterView = () => {
   const route = useRoute()
   const View = route.routeInfo.view
 
-  return <View name={route.name} params={route.params} />
+  return View && <View name={route.name} params={route.params} />
 }
 
 export const RouteLink = ({
