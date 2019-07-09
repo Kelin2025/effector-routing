@@ -10,6 +10,9 @@ export const useRoute = () => {
 
 export const RouterView = () => {
   const route = useRoute()
+  if (!route || !route.routeInfo) {
+    return null
+  }
   const View = route.routeInfo.view
 
   return View && <View name={route.name} params={route.params} />
