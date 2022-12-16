@@ -1,5 +1,7 @@
 # Effector Routing
 
+> ### **DEPRECATED: Consider using [atomic-router](https://atomic-router.github.io) instead**
+
 Simple abstact router on top of Effector. Also has React bindings and DOM adapter
 
 ## Installation
